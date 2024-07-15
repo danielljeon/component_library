@@ -1,0 +1,35 @@
+################################################################################
+# distributor_apis.yaml
+# Base commit hash: 203a596
+#
+# Check and verify library integrity with distributor APIs.
+################################################################################
+
+name: Library Integrity Check with Distributor APIs
+
+on: [ push, pull_request ]
+
+jobs:
+  distributor_apis:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r .github/workflows/distributor_apis_requirements.txt
+
+      - name: Run script
+        env:
+          MOUSER_API_VERSION: ${{ secrets.MOUSER_API_VERSION }}
+          MOUSER_API_KEY: ${{ secrets.MOUSER_API_KEY }}
+          # NOTE: Setup as GitHub organization or repository secrets.
+        run: python .github/workflows/distributor_apis.py

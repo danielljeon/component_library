@@ -65,4 +65,3 @@ body:
       default: 2
     validations:
       required: true
-  - type: dropdown

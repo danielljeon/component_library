@@ -28,7 +28,9 @@ jobs:
 
       - name: Run script
         env:
-          MOUSER_API_VERSION: ${{ secrets.MOUSER_API_VERSION }}
+          DIGIKEY_API_CLIENT_ID: ${{ secrets.DIGIKEY_API_CLIENT_ID }}
+          DIGIKEY_API_CLIENT_SECRET: ${{ secrets.DIGIKEY_API_CLIENT_SECRET }}
           MOUSER_API_KEY: ${{ secrets.MOUSER_API_KEY }}
+          MOUSER_API_VERSION: ${{ secrets.MOUSER_API_VERSION }}
           # NOTE: Setup as GitHub organization or repository secrets.
         run: python .github/workflows/distributor_apis.py

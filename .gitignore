@@ -1,11 +1,20 @@
 ################################################################################
+# devenv.gitignore
+#
+# General Dev Environments.
+################################################################################
+
+# JetBrains IDEs
+# Based on: https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore.
+.idea/
+
+################################################################################
 # kicad.gitignore
-# Base commit hash: aab4111
 #
-# KiCAD project repo gitignore
-# Based on: https://github.com/github/gitignore/blob/main/KiCad.gitignore
+# KiCAD project repo gitignore.
+# Based on: https://github.com/github/gitignore/blob/main/KiCad.gitignore.
 #
-# Format documentation: https://kicad.org/help/file-formats/
+# Format documentation: https://kicad.org/help/file-formats/.
 ################################################################################
 
 # Temporary files
@@ -38,10 +47,9 @@ fp-info-cache
 
 ################################################################################
 # macos.gitignore
-# Base commit hash: 95328c5
 #
-# macOS gitignore
-# Based on: https://github.com/github/gitignore/blob/main/Global/macOS.gitignore
+# macOS gitignore.
+# Based on: https://github.com/github/gitignore/blob/main/Global/macOS.gitignore.
 ################################################################################
 
 # General

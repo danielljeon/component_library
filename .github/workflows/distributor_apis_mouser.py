@@ -5,8 +5,11 @@ Docs Docs: https://api.mouser.com/api/docs/V1.
 """
 
 import os
+import re
 
 import requests
+
+from component_class import PCBComponent
 
 # Base API url.
 BASE_URL = "https://api.mouser.com/"
@@ -20,14 +23,49 @@ assert API_KEY is not None, "Missing MOUSER_API_KEY from env."
 
 class MouserAPI:  # TODO: This is stupid OOP usage, maybe setup for structure.
     @staticmethod
-    def search_part(part_number: str) -> dict:
+    def search_part(part_number: str) -> list[PCBComponent]:
         """Search for a part number on the Mouser API.
 
         Args:
             part_number: Mouser part number to search for.
 
-        Returns: Dict json of API response, max 50 search results.
+        Returns: List of PCBComponent objects, max 50 search results.
         """
+
+        def extract_json_response(json_response: dict) -> list[PCBComponent]:
+            """Extract list of PCBComponent objects from API json response.
+
+            Args:
+                json_response: Value of POST / GET request's response.json().
+
+            Returns:
+                List of PCBComponent objects
+            """
+            components = []
+
+            for part in json_response["SearchResults"]["Parts"]:
+                # Extract availability with regex.
+                match = re.search(r"(\d+) In Stock", part["Availability"])
+                availability = int(match.group(1)) if match else 0
+
+                component = PCBComponent(
+                    reference="DISTRIBUTOR_MOUSER_DATA",
+                    value=None,
+                    datasheet=part["DataSheetUrl"],
+                    footprint=None,
+                    quantity=availability,
+                    do_not_populate=False,
+                    manufacturer=part["Manufacturer"],
+                    manufacturer_part_number=part["ManufacturerPartNumber"],
+                    distributor="Mouser",
+                    distributor_part_number=part["MouserPartNumber"],
+                    distributor_link=part["ProductDetailUrl"],
+                    life_cycle_status=part["LifecycleStatus"],
+                )
+                components.append(component)
+
+            return components
+
         # Prepare URL and params.
         url = f"{BASE_URL}api/v{API_VERSION}/search/partnumber"
 
@@ -50,7 +88,8 @@ class MouserAPI:  # TODO: This is stupid OOP usage, maybe setup for structure.
 
         # Check if the request was successful.
         if response.status_code == 200:
-            return response.json()
+            result = response.json()
+            return extract_json_response(json_response=result)
         else:
             raise RuntimeWarning(
                 f"Failed to fetch data: {response.status_code}"

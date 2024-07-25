@@ -10,6 +10,8 @@ import os
 
 import requests
 
+from component_class import PCBComponent
+
 # Base API url.
 BASE_URL = "https://api.digikey.com"
 
@@ -72,7 +74,7 @@ class DigiKeyAPI:  # TODO: This is stupid OOP usage, maybe setup for structure.
         locale: str = "CA",
         langauge: str = "en",
         currency: str = "CAD",
-    ) -> dict:
+    ) -> list[PCBComponent]:
         """Search for a part number on the DigiKey API.
 
         Args:
@@ -82,8 +84,45 @@ class DigiKeyAPI:  # TODO: This is stupid OOP usage, maybe setup for structure.
             langauge: Langauge, defaults to "en" (English).
             currency: Country currency, defaults to "CAD" (Canadian Dollar).
 
-        Returns: Dict json of API response.
+        Returns: List of PCBComponent objects.
         """
+
+        def extract_json_response(json_response: dict) -> list[PCBComponent]:
+            """Extract list of PCBComponent objects from API json response.
+
+            Args:
+                json_response: Value of POST / GET request's response.json().
+
+            Returns:
+                List of PCBComponent objects
+            """
+            components = []
+
+            part = json_response["Product"]
+
+            # Extract DigiKey part number.
+            # TODO: Currently assuming only 1 perfect match result return. Need
+            #  to verify this assumption further.
+            pn = part["ProductVariations"][0]["DigiKeyProductNumber"]
+
+            component = PCBComponent(
+                reference="DISTRIBUTOR_DIGIKEY_DATA",
+                value=None,
+                datasheet=part["DatasheetUrl"],
+                footprint=None,
+                quantity=part["QuantityAvailable"],
+                do_not_populate=False,
+                manufacturer=part["Manufacturer"]["Name"],
+                manufacturer_part_number=part["ManufacturerProductNumber"],
+                distributor="DigiKey",
+                distributor_part_number=pn,
+                distributor_link=part["ProductUrl"],
+                life_cycle_status=part["ProductStatus"]["Status"],
+            )
+            components.append(component)
+
+            return components
+
         # Prepare URL and params.
         url = f"{BASE_URL}/products/v4/search/{part_number}/productdetails"
 
@@ -102,7 +141,8 @@ class DigiKeyAPI:  # TODO: This is stupid OOP usage, maybe setup for structure.
 
         # Check if the request was successful.
         if response.status_code == 200:
-            return response.json()
+            result = response.json()
+            return extract_json_response(json_response=result)
         else:
             raise RuntimeWarning(
                 f"Failed to fetch data: {response.status_code}"

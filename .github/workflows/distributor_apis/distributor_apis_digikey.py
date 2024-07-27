@@ -151,6 +151,11 @@ class DigiKeyAPI:  # TODO: This is stupid OOP usage, maybe setup for structure.
         if response.status_code == 200:
             result = response.json()
             return extract_json_response(json_response=result)
+        if (
+            response.status_code == 404
+            and f"{part_number} not found" in response.text.lower()
+        ):
+            return []  # Part not found with 404 error code.
         else:
             raise RuntimeWarning(
                 f"Failed to fetch data: {response.status_code}"

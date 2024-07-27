@@ -47,7 +47,13 @@ class MouserAPI:  # TODO: This is stupid OOP usage, maybe setup for structure.
             """
             components = []
 
-            for part in json_response["SearchResults"]["Parts"]:
+            try:
+                results = json_response["SearchResults"]
+                parts = [] if results is None else results["Parts"]
+            except KeyError:
+                raise RuntimeWarning("Unexpected json response body")
+
+            for part in parts:
                 # Extract availability with regex.
                 match = re.search(r"(\d+) In Stock", part["Availability"])
                 availability = int(match.group(1)) if match else 0

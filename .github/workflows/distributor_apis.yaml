@@ -34,7 +34,11 @@ jobs:
           MOUSER_API_KEY: ${{ secrets.MOUSER_API_KEY }}
           MOUSER_API_VERSION: ${{ secrets.MOUSER_API_VERSION }}
           # NOTE: Setup as GitHub organization or repository secrets.
-        run: pytest .github/workflows/distributor_apis --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
+        run: coverage run -m pytest .github/workflows/distributor_apis -v -s
+
+      - name: Generate Coverage Report
+        run: |
+          coverage report -m
 
   check_library_integrity:
     needs: run_pytest

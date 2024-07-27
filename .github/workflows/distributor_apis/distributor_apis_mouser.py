@@ -31,6 +31,9 @@ class MouserAPI:  # TODO: This is stupid OOP usage, maybe setup for structure.
 
         Returns:
             List of PCBComponent objects, max 50 search results.
+
+        Raises:
+            RuntimeWarning: For failed non-200 HTTPS code.
         """
 
         def extract_json_response(json_response: dict) -> list[PCBComponent]:

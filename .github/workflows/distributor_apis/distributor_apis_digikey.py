@@ -31,6 +31,9 @@ class DigiKeyAPI:  # TODO: This is stupid OOP usage, maybe setup for structure.
 
         Returns:
             A tuple with (bearer_token_str, lifetime_in_seconds).
+
+        Raises:
+            RuntimeWarning: For failed non-200 HTTPS code.
         """
         # Prepare URL and params.
         url = f"https://api.digikey.com/v1/oauth2/token"
@@ -87,6 +90,9 @@ class DigiKeyAPI:  # TODO: This is stupid OOP usage, maybe setup for structure.
 
         Returns:
             List of PCBComponent objects.
+
+        Raises:
+            RuntimeWarning: For failed non-200 HTTPS code.
         """
 
         def extract_json_response(json_response: dict) -> list[PCBComponent]:

@@ -37,7 +37,7 @@ jobs:
         run: pytest distributor_apis --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
 
   check_library_integrity:
-    needs: test_distributor_apis
+    needs: run_pytest
 
     runs-on: ubuntu-latest
 

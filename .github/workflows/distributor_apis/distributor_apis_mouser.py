@@ -96,8 +96,6 @@ class MouserAPI:  # TODO: This is stupid OOP usage, maybe setup for structure.
             url, headers=headers, json=data, params={"apiKey": API_KEY}
         )
 
-        raise RuntimeWarning
-
         # Check if the request was successful.
         if response.status_code == 200:
             result = response.json()

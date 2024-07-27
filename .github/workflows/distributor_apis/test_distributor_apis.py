@@ -1,3 +1,5 @@
+"""pytest and pytest-cov functions for distributor_apis."""
+
 from distributor_apis_digikey import DigiKeyAPI
 from distributor_apis_mouser import MouserAPI
 

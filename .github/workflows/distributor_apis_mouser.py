@@ -29,7 +29,8 @@ class MouserAPI:  # TODO: This is stupid OOP usage, maybe setup for structure.
         Args:
             part_number: Mouser part number to search for.
 
-        Returns: List of PCBComponent objects, max 50 search results.
+        Returns:
+            List of PCBComponent objects, max 50 search results.
         """
 
         def extract_json_response(json_response: dict) -> list[PCBComponent]:

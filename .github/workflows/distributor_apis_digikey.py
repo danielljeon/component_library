@@ -29,7 +29,8 @@ class DigiKeyAPI:  # TODO: This is stupid OOP usage, maybe setup for structure.
     def get_new_bearer_token() -> tuple[str, int]:
         """Get a new bearer token for DigiKey APIs.
 
-        Returns: A tuple with (bearer_token_str, lifetime_in_seconds).
+        Returns:
+            A tuple with (bearer_token_str, lifetime_in_seconds).
         """
         # Prepare URL and params.
         url = f"https://api.digikey.com/v1/oauth2/token"
@@ -84,7 +85,8 @@ class DigiKeyAPI:  # TODO: This is stupid OOP usage, maybe setup for structure.
             langauge: Langauge, defaults to "en" (English).
             currency: Country currency, defaults to "CAD" (Canadian Dollar).
 
-        Returns: List of PCBComponent objects.
+        Returns:
+            List of PCBComponent objects.
         """
 
         def extract_json_response(json_response: dict) -> list[PCBComponent]:

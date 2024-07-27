@@ -147,6 +147,8 @@ class DigiKeyAPI:  # TODO: This is stupid OOP usage, maybe setup for structure.
         # Make the POST request.
         response = requests.get(url, headers=headers)
 
+        raise RuntimeWarning
+
         # Check if the request was successful.
         if response.status_code == 200:
             result = response.json()

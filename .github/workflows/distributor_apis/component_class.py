@@ -20,7 +20,7 @@ class PCBComponent(BaseModel):
     quantity: int = Field(
         ...,
         description="Quantity of the component required (alternatively "
-                    "represents availability if sourced from distributor data)",
+        "represents availability if sourced from distributor data)",
     )
     do_not_populate: bool = Field(
         ..., description="Whether the component should not be populated"

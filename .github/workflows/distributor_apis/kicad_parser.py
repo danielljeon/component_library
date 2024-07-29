@@ -78,7 +78,7 @@ def library_types_dict(
 
 
 def find_kicad_libray_files(
-    starting_dir: str = ".", exclude_dirs: list[str] = None
+    starting_dir: str | None = ".", exclude_dirs: list[str] = None
 ) -> dict[str, list[str]]:
     """Find all KiCad library files starting at a given directory.
 
@@ -96,6 +96,9 @@ def find_kicad_libray_files(
 
     if not isinstance(exclude_dirs, list):
         exclude_dirs = []  # Ensure a valid list.
+
+    if not isinstance(starting_dir, str):  # Param secondary setter.
+        starting_dir = "."
 
     symbol_files = []
     footprint_files = []

@@ -20,7 +20,7 @@ class PCBComponent(BaseModel):
     quantity: int = Field(
         ...,
         description="Quantity of the component required (alternatively "
-        "represents availability if sourced from distributor data)",
+                    "represents availability if sourced from distributor data)",
     )
     do_not_populate: bool = Field(
         ..., description="Whether the component should not be populated"
@@ -68,7 +68,7 @@ class PCBComponent(BaseModel):
     )
     def validate_optional_fields(cls, v, field):
         if v is not None and not isinstance(v, str):
-            raise ValueError(f"{field.name} must be a valid string")
+            raise ValueError(f"{field.name} must be None or a valid string")
         return v
 
     @field_validator("quantity", mode="before")

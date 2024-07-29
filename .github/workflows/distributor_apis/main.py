@@ -3,12 +3,16 @@
 Called as a GitHub actions script.
 """
 
-from distributor_apis_digikey import DigiKeyAPI
-from distributor_apis_mouser import MouserAPI
+# from distributor_apis_digikey import DigiKeyAPI
+# from distributor_apis_mouser import MouserAPI
+from kicad_parser import parse_library
 
 
 def main():
-    # TODO: Develop script to parse component data.
+    parse_library(
+        starting_dir=".", exclude_dirs=[".git", ".github", "venv", ".idea"]
+    )
+    # TODO: Develop script to compare distributor and library data.
     # mouser_part_number = "511-STM32L432KCU6"
     # digikey_part_number = "497-16578-ND"
     #

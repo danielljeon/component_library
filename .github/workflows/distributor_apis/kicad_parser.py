@@ -60,7 +60,7 @@ def is_kicad_footprint_dir(directory: str) -> bool:
 
 def library_types_dict(
     footprints: list[str | PCBComponent], symbols: list[str | PCBComponent]
-) -> dict[str, list[str]]:
+) -> dict[str, list[str] | list[PCBComponent]]:
     """Get a format a dict with standardized keys of all library types.
 
     Args:
@@ -188,7 +188,7 @@ def parse_footprint(footprint_file_path: str) -> PCBComponent:
 
 def parse_library(
     starting_dir: str = None, exclude_dirs: list[str] = None
-) -> dict[str, list[str]]:
+) -> dict[str, list[PCBComponent]]:
     """Parse the entire KiCad library and create PCBComponent objects.
 
     Args:

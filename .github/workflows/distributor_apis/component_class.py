@@ -68,7 +68,7 @@ class PCBComponent(BaseModel):
     )
     def validate_optional_fields(cls, v, field):
         if v is not None and not isinstance(v, str):
-            raise ValueError(f"{field.name} must be a valid string")
+            raise ValueError(f"{field.name} must be None or a valid string")
         return v
 
     @field_validator("quantity", mode="before")

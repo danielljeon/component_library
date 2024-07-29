@@ -10,6 +10,7 @@ import re
 import requests
 
 from component_class import PCBComponent
+from api_class import DistributorAPI
 
 # Base API url.
 BASE_URL = "https://api.mouser.com/"
@@ -21,7 +22,11 @@ API_KEY = os.getenv("MOUSER_API_KEY")
 assert API_KEY is not None, "Missing MOUSER_API_KEY from env."
 
 
-class MouserAPI:  # TODO: This is stupid OOP usage, maybe setup for structure.
+class Mouser(DistributorAPI):
+    @property
+    def name(self) -> str:
+        return "Mouser"
+
     @staticmethod
     def search_part(part_number: str) -> list[PCBComponent]:
         """Search for a part number on the Mouser API.

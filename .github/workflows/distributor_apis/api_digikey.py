@@ -11,6 +11,7 @@ import os
 import requests
 
 from component_class import PCBComponent
+from api_class import DistributorAPI
 
 # Base API url.
 BASE_URL = "https://api.digikey.com"
@@ -24,7 +25,11 @@ assert (
 ), "Missing DIGIKEY_API_CLIENT_SECRET from env."
 
 
-class DigiKeyAPI:  # TODO: This is stupid OOP usage, maybe setup for structure.
+class DigiKey(DistributorAPI):
+    @property
+    def name(self) -> str:
+        return "DigiKey"
+
     @staticmethod
     def get_new_bearer_token() -> tuple[str, int]:
         """Get a new bearer token for DigiKey APIs.

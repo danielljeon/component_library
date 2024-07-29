@@ -3,6 +3,7 @@
 """
 
 import os
+import re
 
 from component_class import PCBComponent
 
@@ -57,6 +58,25 @@ def is_kicad_footprint_dir(directory: str) -> bool:
     return False
 
 
+def library_types_dict(
+    footprints: list[str | PCBComponent], symbols: list[str | PCBComponent]
+) -> dict[str, list[str]]:
+    """Get a format a dict with standardized keys of all library types.
+
+    Args:
+        footprints: List of footprints to pass.
+        symbols: List of symbols to pass.
+
+    Returns:
+        Format:
+        {
+            "footprints": [ ... ],
+            "symbols": [ ... ]
+        }
+    """
+    return {"footprints": footprints, "symbols": symbols}
+
+
 def find_kicad_libray_files(
     starting_dir: str = ".", exclude_dirs: list[str] = None
 ) -> dict[str, list[str]]:
@@ -68,20 +88,10 @@ def find_kicad_libray_files(
 
     Returns:
         A dict with values of list os library files.
-        Format:
-        {
-            "footprints": [],
-            "symbols": [],
-            ...
-        }
 
     Notes:
         A maximum search directory search limit is set within the function.
     """
-
-    def format_dict() -> dict[str, list[str]]:
-        return {"footprints": footprint_files, "symbols": symbol_files}
-
     search_limit = 50  # Maximum number of directories to look in.
 
     if not isinstance(exclude_dirs, list):
@@ -93,7 +103,9 @@ def find_kicad_libray_files(
     # Find all KiCad symbols in current directory.
     for i, (root, dirs, files) in enumerate(os.walk(starting_dir)):
         if i > search_limit:
-            return format_dict()
+            return library_types_dict(
+                footprints=footprint_files, symbols=symbol_files
+            )
 
         dirs[:] = [d for d in dirs if d not in exclude_dirs]  # Exclude dirs.
 
@@ -103,7 +115,7 @@ def find_kicad_libray_files(
             if is_kicad_footprint_dir(root) and is_kicad_footprint_file(file):
                 footprint_files.append(os.path.join(root, file))
 
-    return format_dict()
+    return library_types_dict(footprints=footprint_files, symbols=symbol_files)
 
 
 def parse_symbols() -> list[PCBComponent]:

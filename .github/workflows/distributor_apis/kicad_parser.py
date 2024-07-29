@@ -91,7 +91,7 @@ def find_kicad_libray_files(
     footprint_files = []
 
     # Find all KiCad symbols in current directory.
-    for i, root, dirs, files in enumerate(os.walk(starting_dir)):
+    for i, (root, dirs, files) in enumerate(os.walk(starting_dir)):
         if i > search_limit:
             return format_dict()
 

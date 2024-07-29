@@ -118,12 +118,93 @@ def find_kicad_libray_files(
     return library_types_dict(footprints=footprint_files, symbols=symbol_files)
 
 
-def parse_symbols() -> list[PCBComponent]:
-    """Parse KiCad symbol files and create PCBComponent objects.
+def get_property(text: str, property_name: str) -> None | str:
+    """Extract property values from KiCad component library file text.
+
+    Args:
+        text: Text to search within.
+        property_name: Property name to search match for.
+
+    Returns:
+        Matched property value or None if not found.
+    """
+    match = re.search(rf'property\s+"{property_name}"\s+"([^"]+)"', text)
+    if match:
+        return match.group(1)
+    return None
+
+
+def parse_symbol(symbol_file_path: str) -> PCBComponent:
+    """Parse KiCad symbol file and create a PCBComponent object.
 
     Returns:
         List of PCBComponent objects.
     """
-    symbols = []
+    with open(symbol_file_path, "r") as f:
+        text = f.read()
+        return PCBComponent(
+            reference=get_property(text, "Reference"),
+            value=get_property(text, "Value"),
+            datasheet=get_property(text, "Datasheet"),
+            footprint=get_property(text, "Footprint"),
+            quantity=0,
+            do_not_populate=False,
+            manufacturer=get_property(text, "Manufacturer"),
+            manufacturer_part_number=get_property(
+                text, "Manufacturer Part Number"
+            ),
+            distributor=get_property(text, "Distributor"),
+            distributor_part_number=get_property(
+                text, "Distributor Part Number"
+            ),
+            distributor_link=get_property(text, "Distributor Link"),
+        )
 
-    return symbols
+
+def parse_footprint(footprint_file_path: str) -> PCBComponent:
+    """Parse KiCad footprint file and create a PCBComponent object.
+
+    Returns:
+        List of PCBComponent objects.
+    """
+    with open(footprint_file_path, "r") as f:
+        text = f.read()
+        return PCBComponent(
+            reference=get_property(text, "Reference"),
+            value=get_property(text, "Value"),
+            datasheet=get_property(text, "Datasheet"),
+            footprint=get_property(text, "Footprint"),
+            quantity=0,
+            do_not_populate=False,
+            manufacturer=get_property(text, "Manufacturer"),
+            manufacturer_part_number=get_property(
+                text, "Manufacturer Part Number"
+            ),
+        )
+
+
+def parse_library(
+    starting_dir: str = None, exclude_dirs: list[str] = None
+) -> dict[str, list[str]]:
+    """Parse the entire KiCad library and create PCBComponent objects.
+
+    Args:
+        starting_dir: Starting directory to search, defaults to current.
+        exclude_dirs: List of directories to ignore.
+
+    Returns:
+        A dict with PCBComponent objects.
+    """
+    symbols = []
+    footprints = []
+
+    library_files = find_kicad_libray_files(
+        starting_dir=starting_dir, exclude_dirs=exclude_dirs
+    )
+
+    for symbol_file_path in library_files["symbols"]:
+        symbols.append(parse_symbol(symbol_file_path))
+    for footprint_file_path in library_files["footprints"]:
+        footprints.append(parse_footprint(footprint_file_path))
+
+    return library_types_dict(footprints=footprints, symbols=symbols)

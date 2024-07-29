@@ -11,7 +11,7 @@ import os
 import requests
 
 from component_class import PCBComponent
-from distributor_api_class import DistributorAPI
+from api_class import DistributorAPI
 
 # Base API url.
 BASE_URL = "https://api.digikey.com"
@@ -25,7 +25,7 @@ assert (
 ), "Missing DIGIKEY_API_CLIENT_SECRET from env."
 
 
-class DigiKeyAPI(DistributorAPI):
+class DigiKey(DistributorAPI):
     @property
     def name(self) -> str:
         return "DigiKey"

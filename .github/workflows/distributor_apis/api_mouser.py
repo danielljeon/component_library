@@ -10,7 +10,7 @@ import re
 import requests
 
 from component_class import PCBComponent
-from distributor_api_class import DistributorAPI
+from api_class import DistributorAPI
 
 # Base API url.
 BASE_URL = "https://api.mouser.com/"
@@ -22,7 +22,7 @@ API_KEY = os.getenv("MOUSER_API_KEY")
 assert API_KEY is not None, "Missing MOUSER_API_KEY from env."
 
 
-class MouserAPI(DistributorAPI):
+class Mouser(DistributorAPI):
     @property
     def name(self) -> str:
         return "Mouser"

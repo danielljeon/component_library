@@ -4,7 +4,7 @@
 # Check and verify library integrity with distributor APIs.
 ################################################################################
 
-name: Library Integrity Check with Distributor APIs
+name: Distributor Check
 
 on: [ push, pull_request ]
 

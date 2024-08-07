@@ -1,6 +1,6 @@
 # component_library
 
-![black-formatter](https://github.com/danielljeon/component_library/actions/workflows/black_formatter.yaml/badge.svg)
+![black_formatter](https://github.com/danielljeon/component_library/actions/workflows/black_formatter.yaml/badge.svg)
 ![distributor_apis](https://github.com/danielljeon/component_library/actions/workflows/distributor_apis.yaml/badge.svg)
 
 KiCad component library.

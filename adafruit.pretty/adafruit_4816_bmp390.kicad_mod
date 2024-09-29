@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -4.9116 0)
+		(at 0 -10.16 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "2d2538e6-b951-4328-9019-9cb8372a5b67")
@@ -186,7 +186,7 @@
 		)
 	)
 	(fp_text user "BMP390 Breakout"
-		(at 0 1.5 0)
+		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "2d69e0b6-0df7-46e6-a13f-9291e03a1420")
@@ -200,7 +200,7 @@
 		)
 	)
 	(fp_text user "Adafruit 4816"
-		(at 0 -1 0)
+		(at 0 -1.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "5ebb8de6-f4f8-4eac-a020-4e29befb932b")

@@ -59,15 +59,15 @@ the benefit of an accurate SPICE model outweighs the required effort.
 
 ### 3.1 General Properties
 
-| n | Name                       | Explained                      | Show | KiCad Default |
-|---|----------------------------|--------------------------------|------|---------------|
-| 1 | `Reference`                | Footprint reference (REQUIRED) | Yes  | Yes           |
-| 2 | `Value`                    | Value, if applicable           | Yes  | Yes           |
-| 3 | `Footprint`                | Location from repo root dir    | No   | Yes           |
-| 4 | `Datasheet`                | URL/location of datasheet      | No   | Yes           |
-| 5 | `Description`              | Short 1 sentence description   | No   | Yes           |
-| 6 | `Manufacturer`             | Fab/manufacturer name          | No   | No            |
-| 7 | `Manufacturer Part Number` | Must match if added!           | No   | No            |
+| n | Name                       | Explained                      | Show | Layer        | KiCad Default |
+|---|----------------------------|--------------------------------|------|--------------|---------------|
+| 1 | `Reference`                | Footprint reference (REQUIRED) | Yes  | F.Silkscreen | Yes           |
+| 2 | `Value`                    | Value, if applicable           | Yes  | F.Fab        | Yes           |
+| 3 | `Footprint`                | Location from repo root dir    | No   | No show      | Yes           |
+| 4 | `Datasheet`                | URL/location of datasheet      | No   | No show      | Yes           |
+| 5 | `Description`              | Short 1 sentence description   | No   | No show      | Yes           |
+| 6 | `Manufacturer`             | Fab/manufacturer name          | No   | No show      | No            |
+| 7 | `Manufacturer Part Number` | Must match if added!           | No   | No show      | No            |
 
 ### 3.2 Clearance Overrides and Settings
 

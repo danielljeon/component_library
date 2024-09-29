@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -3.9116 0)
+		(at 0 -5.4116 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "2d2538e6-b951-4328-9019-9cb8372a5b67")
@@ -92,15 +92,15 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -13.97 -12.7)
-		(end 13.97 12.7)
+		(start -12.7 -11.43)
+		(end 12.7 11.43)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill none)
 		(layer "F.SilkS")
-		(uuid "2f95e0b7-f195-426d-a3cc-d19560bf4683")
+		(uuid "9e6f3539-357e-4fc1-adf2-146515a43d8d")
 	)
 	(fp_circle
 		(center -10.16 10.795)
@@ -136,18 +136,44 @@
 		(uuid "2e2f4792-0c22-4e85-a359-a6e51478dfb4")
 	)
 	(fp_rect
-		(start -12.7 -11.43)
-		(end 12.7 11.43)
+		(start -13.97 -12.7)
+		(end 13.97 12.7)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill none)
 		(layer "F.CrtYd")
-		(uuid "9e6f3539-357e-4fc1-adf2-146515a43d8d")
+		(uuid "2f95e0b7-f195-426d-a3cc-d19560bf4683")
+	)
+	(fp_text user "DET"
+		(at 10.16 7.62 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2759e212-8a92-4b51-bff6-eebe005d1e2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "SI/CMD"
+		(at 0 7.62 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "29c2c82d-2d9b-412f-8203-5ff769130efc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
 	)
 	(fp_text user "SD Card Breakout"
-		(at 0 2.5 0)
+		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "2d69e0b6-0df7-46e6-a13f-9291e03a1420")
@@ -160,8 +186,34 @@
 			(justify bottom)
 		)
 	)
+	(fp_text user "GND"
+		(at -7.62 7.62 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "50f46883-caf5-4a59-86b9-24410f37c9a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "D2"
+		(at 7.62 7.62 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "593b08c1-6c78-480f-9cc1-1cf12a457b3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
 	(fp_text user "Adafruit 4682"
-		(at 0 0 0)
+		(at 0 -1.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "5ebb8de6-f4f8-4eac-a020-4e29befb932b")
@@ -172,6 +224,71 @@
 				(bold yes)
 			)
 			(justify bottom)
+		)
+	)
+	(fp_text user "3V"
+		(at -10.16 7.62 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "76347633-85e1-4250-a3ce-5a2efb966fe7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "SO/D0"
+		(at -2.54 7.62 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7a8e65a3-0cd5-485b-a7d8-a993aab253d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "D1"
+		(at 5.08 7.62 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b7119b6e-ddf2-4e70-84b6-328727ce063e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "CLK"
+		(at -5.08 7.62 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d4385588-e6e1-48c6-bc60-b3fa96fe8d54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "CS/D3"
+		(at 2.54 7.62 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e3d411b1-ac8d-47f3-b59a-26c488cd5f01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
 		)
 	)
 	(fp_text user "${REFERENCE}"

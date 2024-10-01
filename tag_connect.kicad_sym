@@ -7,7 +7,7 @@
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 0 11.176 0)
+			(at 0 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -244,7 +244,7 @@
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 0 11.176 0)
+			(at 0 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -481,7 +481,7 @@
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 0 12.446 0)
+			(at 0 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -790,7 +790,7 @@
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 0 12.446 0)
+			(at 0 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)

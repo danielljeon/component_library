@@ -129,17 +129,6 @@
 		(layer "F.CrtYd")
 		(uuid "00f476f0-0542-4824-b3f0-d7b7f885b3cc")
 	)
-	(fp_text user "KEEPOUT"
-		(at 0 0 0)
-		(layer "Dwgs.User")
-		(uuid "771d0aa7-ecd3-4927-aba2-01f50165ba6a")
-		(effects
-			(font
-				(size 0.4 0.4)
-				(thickness 0.07)
-			)
-		)
-	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")

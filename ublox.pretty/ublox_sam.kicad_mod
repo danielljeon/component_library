@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "ublox_sam"
-		(at 0 1 0)
+		(at 0 9.25 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "1a484ba9-6bec-4333-ad04-1084584a7f6b")
@@ -1042,8 +1042,8 @@
 		(uuid "18652e0c-548c-48a1-b7f7-d0ab1db5f06b")
 	)
 	(fp_circle
-		(center -8.505 -3.8)
-		(end -8.005 -3.8)
+		(center -8.5 -3.8)
+		(end -8.3 -3.8)
 		(stroke
 			(width 0)
 			(type solid)
@@ -1051,6 +1051,17 @@
 		(fill solid)
 		(layer "F.SilkS")
 		(uuid "d72c71ed-72d8-4884-9a2b-19ab86aa36b5")
+	)
+	(fp_rect
+		(start -8.25 -8.25)
+		(end 8.25 8.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "17e26733-76fe-4153-bc22-56eebf92acd4")
 	)
 	(fp_line
 		(start -5.55 4.55)
@@ -1197,10 +1208,10 @@
 		(uuid "8edfd1e4-bf63-4364-87d9-207c4b84f19b")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "af4c98a9-a2a5-4f6f-92bc-55de72334d2c")
+		(uuid "3790b45e-cfa0-4abf-b9e8-ef8b00357af0")
 		(effects
 			(font
 				(size 1 1)

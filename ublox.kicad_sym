@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ublox:ublox_sam"
 			(at 0 0 0)
 			(effects
 				(font
@@ -240,7 +240,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 17.78 270)
+				(at 0 17.78 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -294,7 +294,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 17.78 270)
+				(at 5.08 17.78 270)
 				(length 2.54)
 				(name "V_IO"
 					(effects
@@ -330,7 +330,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 17.78 270)
+				(at -5.08 17.78 270)
 				(length 2.54)
 				(name "V_BCKP"
 					(effects

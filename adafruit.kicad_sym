@@ -67,7 +67,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "DigiKey"
 			(at 0 0 0)
 			(effects
 				(font
@@ -76,7 +76,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "1528-4682-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -85,7 +85,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/adafruit-industries-llc/4682/12822319?s=N4IgTCBcDaICwDYAcYAEBDAJugZgJwFcBLAFxAF0BfIA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -345,7 +345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "DigiKey"
 			(at 0 0 0)
 			(effects
 				(font
@@ -354,7 +354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "1528-4754-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -363,7 +363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/adafruit-industries-llc/4754/13426653?s=N4IgTCBcDaIIYBM4DMBOBXAlgFwAQBYB2AVnxAF0BfIA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -677,7 +677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "DigiKey"
 			(at 0 0 0)
 			(effects
 				(font
@@ -686,7 +686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "1528-4816-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -695,7 +695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/adafruit-industries-llc/4816/13543385?s=N4IgTCBcDaIIYBM4DMBOBXAlgFwAQBYAOARgDYQBdAXyA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -937,7 +937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "DigiKey"
 			(at 0 0 0)
 			(effects
 				(font
@@ -946,7 +946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "1528-5708-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -955,7 +955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/adafruit-industries-llc/5708/18716420?s=N4IgTCBcDaIIYBM4DMBOBXAlgFwAQFYB2ABgA4QBdAXyA"
 			(at 0 0 0)
 			(effects
 				(font

@@ -67,7 +67,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "DigiKey"
 			(at 0 0 0)
 			(effects
 				(font
@@ -76,7 +76,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "672-SAM-M10Q-00BCT-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -85,7 +85,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/u-blox/SAM-M10Q-00B/16672678?s=N4IgTCBcDaIMoEECyBaJBGADARRAXQF8g"
 			(at 0 0 0)
 			(effects
 				(font

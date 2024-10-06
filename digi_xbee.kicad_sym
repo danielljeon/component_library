@@ -67,7 +67,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "DigiKey"
 			(at 0 0 0)
 			(effects
 				(font
@@ -76,7 +76,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "602-1301-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -85,7 +85,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/digi/XBP9B-DMWT-002/3594159?s=N4IgTCBcDaIBoCEAKBOBBaAIgWQOoBV0AGIiAXQF8g"
 			(at 0 0 0)
 			(effects
 				(font

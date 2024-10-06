@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "common:xtal_abs25-32.768khz-6-t"
 			(at 0 0 0)
 			(effects
 				(font

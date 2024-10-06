@@ -207,7 +207,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Value" "2171750001"
@@ -216,11 +215,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Footprint" "common:molex_2171750001_usb_c_6p"
-			(at 3.81 2.54 0)
+			(at 3.81 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -229,7 +227,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/2171750001"
-			(at 35.56 1.397 0)
+			(at 35.56 -7.493 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -238,7 +236,7 @@
 			)
 		)
 		(property "Description" "Universal Serial Bus (USB) Shielded I/O Receptacle, Type C, Right-Angle, Surface Mount, Top Mount, 6 Circuits, Gold (Au) Plating, USB Power-Only 6P Type-C Receptacle connector"
-			(at 35.56 1.397 0)
+			(at 35.56 -7.493 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -274,7 +272,7 @@
 			)
 		)
 		(property "Distributor Part Number" "900-2171750001CT-ND"
-			(at 35.56 1.397 0)
+			(at 35.56 -7.493 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -283,7 +281,7 @@
 			)
 		)
 		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/molex/2171750001/13913745"
-			(at 35.56 1.397 0)
+			(at 35.56 -7.493 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -449,7 +447,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 1.27 180)
+				(at 15.24 -7.62 180)
 				(length 5.08)
 				(name "CC1"
 					(effects
@@ -467,7 +465,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 8.89 180)
+				(at 15.24 10.16 180)
 				(length 5.08)
 				(name "VBUS"
 					(effects
@@ -503,7 +501,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -1.27 180)
+				(at 15.24 -10.16 180)
 				(length 5.08)
 				(name "CC2"
 					(effects
@@ -521,7 +519,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 6.35 180)
+				(at 15.24 7.62 180)
 				(length 5.08)
 				(name "VBUS"
 					(effects

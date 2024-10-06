@@ -194,7 +194,7 @@
 				(alternate "USB_OTG_HS_ULPI_NXT" bidirectional line)
 			)
 			(pin power_in line
-				(at 2.54 -45.72 90)
+				(at 5.08 -45.72 90)
 				(length 2.54)
 				(name "VSSA"
 					(effects
@@ -337,7 +337,7 @@
 				(alternate "USB_OTG_HS_ULPI_D0" bidirectional line)
 			)
 			(pin power_in line
-				(at 0 -45.72 90)
+				(at -7.62 -45.72 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -684,9 +684,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -45.72 90)
-				(length 2.54) hide
+			(pin power_in line
+				(at -5.08 -45.72 90)
+				(length 2.54)
 				(name "VSS"
 					(effects
 						(font
@@ -1090,9 +1090,9 @@
 				)
 				(alternate "SYS_JTMS-SWDIO" bidirectional line)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 -45.72 90)
-				(length 2.54) hide
+				(length 2.54)
 				(name "VSS"
 					(effects
 						(font
@@ -1510,9 +1510,9 @@
 				(alternate "TIM2_CH2" bidirectional line)
 				(alternate "TIM4_CH4" bidirectional line)
 			)
-			(pin passive line
-				(at 0 -45.72 90)
-				(length 2.54) hide
+			(pin power_in line
+				(at -2.54 -45.72 90)
+				(length 2.54)
 				(name "VSS"
 					(effects
 						(font

@@ -735,7 +735,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 11.43 -6.35 180)
+				(at 11.43 -7.62 180)
 				(length 2.54) hide
 				(name ""
 					(effects
@@ -753,7 +753,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 11.43 -6.35 180)
+				(at 11.43 -8.89 180)
 				(length 2.54) hide
 				(name ""
 					(effects
@@ -1044,7 +1044,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 11.43 -6.35 180)
+				(at 11.43 -7.62 180)
 				(length 2.54) hide
 				(name ""
 					(effects
@@ -1062,7 +1062,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 11.43 -6.35 180)
+				(at 11.43 -8.89 180)
 				(length 2.54) hide
 				(name ""
 					(effects

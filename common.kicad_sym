@@ -235,7 +235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "  Connector Header Through Hole 2 position 0.100\" (2.54mm)"
+		(property "Description" "Connector Header Through Hole 2 position 0.100\" (2.54mm)"
 			(at 35.56 -3.683 0)
 			(effects
 				(font
@@ -425,7 +425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "  Connector Header Through Hole 2 position 0.100\" (2.54mm)"
+		(property "Description" "Connector Header Through Hole 2 position 0.100\" (2.54mm)"
 			(at 35.56 -7.493 0)
 			(effects
 				(font

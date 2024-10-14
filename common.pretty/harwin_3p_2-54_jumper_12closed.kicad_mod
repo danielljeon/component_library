@@ -234,34 +234,6 @@
 		(remove_unused_layers no)
 		(uuid "2114cc48-155d-41dc-be92-90932ff1c3a5")
 	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layers "F&B.Cu")
-		(uuid "60541d50-689e-409c-a496-4bca6229c911")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
-			(copperpour allowed)
-			(footprints allowed)
-		)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy -3.39 -0.85) (xy 3.39 -0.85) (xy 3.39 0.85) (xy -3.39 0.85)
-			)
-		)
-	)
 	(model "${KIPRJMOD}/component_library/model_3d/common/M20-9770346.step"
 		(offset
 			(xyz -5.085 0 2.54)

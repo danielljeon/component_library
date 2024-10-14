@@ -1379,34 +1379,6 @@
 		(thermal_bridge_angle 45)
 		(uuid "f59e2ec1-da95-4ccf-955f-a3a32811ff0c")
 	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.Cu")
-		(uuid "ab6e260b-86c8-4754-ba94-6e55f8e0b863")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
-			(copperpour allowed)
-			(footprints allowed)
-		)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy -8.25 -8.25) (xy -8.25 8.25) (xy 8.25 8.25) (xy 8.25 -8.25)
-			)
-		)
-	)
 	(model "${KIPRJMOD}/component_library/model_3d/ublox/SAM_AP214.STEP"
 		(offset
 			(xyz -12 3 1.01)

@@ -1083,7 +1083,7 @@
 			)
 		)
 	)
-	(symbol "harwin_s8411-45r_cr1220_coin_battery_cell"
+	(symbol "harwin_s8411-45r_cr1220"
 		(pin_names
 			(offset 1.016)
 		)
@@ -1106,7 +1106,7 @@
 				)
 			)
 		)
-		(property "Footprint" "common:harwin_s8411-45r_cr1220_coin_battery_cell"
+		(property "Footprint" "common:harwin_s8411-45r_cr1220"
 			(at 3.81 -2.54 0)
 			(effects
 				(font
@@ -1196,7 +1196,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "harwin_s8411-45r_cr1220_coin_battery_cell_0_1"
+		(symbol "harwin_s8411-45r_cr1220_0_1"
 			(rectangle
 				(start -0.254 -1.524)
 				(end -0.762 1.524)
@@ -1268,7 +1268,7 @@
 				)
 			)
 		)
-		(symbol "harwin_s8411-45r_cr1220_coin_battery_cell_1_1"
+		(symbol "harwin_s8411-45r_cr1220_1_1"
 			(pin passive line
 				(at -3.81 0 0)
 				(length 2.54)

@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "harwin_2p_2-54_jumper_closed"
+	(property "Value" "harwin_2p_2-54_jumper_open"
 		(at 0 2.54 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -78,7 +78,7 @@
 			)
 		)
 	)
-	(property "Manufacturer Part Number" "  M20-9990246"
+	(property "Manufacturer Part Number" "M20-9990246"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)

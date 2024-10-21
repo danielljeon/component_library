@@ -216,8 +216,9 @@
 		)
 	)
 	(model "${KIPRJMOD}/component_library/model_3d/common/m7567-05.stp"
+		(opacity 0.3000)
 		(offset
-			(xyz 0 0 12.7)
+			(xyz 0 0 2.54)
 		)
 		(scale
 			(xyz 1 1 1)

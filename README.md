@@ -10,15 +10,18 @@ KiCad component library.
 <details markdown="1">
   <summary>Table of Contents</summary>
 
-- [1 Overview](#1-overview)
-- [2 Symbol Conventions](#2-symbol-conventions)
-    - [2.1 General Properties](#21-general-properties)
-    - [2.2 Simulation Model](#22-simulation-model)
-- [3 Footprint Conventions](#3-footprint-conventions)
-    - [3.1 General Properties](#31-general-properties)
-    - [3.2 Clearance Overrides and Settings](#32-clearance-overrides-and-settings)
-    - [3.3 3D Models](#33-3d-models)
-- [4 Automations (GitHub Actions)](#4-automations-github-actions)
+<!-- TOC -->
+* [component_library](#component_library)
+  * [1 Overview](#1-overview)
+  * [2 Symbol Conventions](#2-symbol-conventions)
+    * [2.1 General Properties](#21-general-properties)
+    * [2.2 Simulation Model](#22-simulation-model)
+  * [3 Footprint Conventions](#3-footprint-conventions)
+    * [3.1 General Properties](#31-general-properties)
+    * [3.2 Clearance Overrides and Settings](#32-clearance-overrides-and-settings)
+    * [3.3 3D Models](#33-3d-models)
+  * [4 Automations (GitHub Actions)](#4-automations-github-actions)
+<!-- TOC -->
 
 </details>
 

@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nxp:sot96-1_soic-8"
+		(property "Footprint" "bosch:bmp390"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31,7 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf"
+		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp390-ds002.pdf"
 			(at 3.81 1.27 0)
 			(effects
 				(font
@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/1 Transceiver Half CANbus 8-SO"
+		(property "Description" "Pressure Sensor 4.35PSI ~ 18.13PSI (30kPa ~ 125kPa) Absolute 10-WFLGA"
 			(at 3.81 1.27 0)
 			(effects
 				(font
@@ -49,7 +49,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "NXP USA Inc."
+		(property "Manufacturer" "Bosch Sensortec"
 			(at 0 0 0)
 			(effects
 				(font
@@ -58,7 +58,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "TJA1051T/3"
+		(property "Manufacturer Part Number" "BMP390"
 			(at 0 0 0)
 			(effects
 				(font
@@ -76,7 +76,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "568-8684-1-ND"
+		(property "Distributor Part Number" "828-BMP390CT-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -85,7 +85,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/nxp-usa-inc/TJA1051T-3-118/2406253"
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/bosch-sensortec/BMP390/16164575"
 			(at 3.81 1.27 0)
 			(effects
 				(font

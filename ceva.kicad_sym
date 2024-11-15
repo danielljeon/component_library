@@ -132,7 +132,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 6.35 -20.32 90)
+				(at 7.62 -20.32 90)
 				(length 2.54) hide
 				(name "RESV_NC"
 					(effects
@@ -150,7 +150,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 6.35 -20.32 90)
+				(at 8.89 -20.32 90)
 				(length 2.54) hide
 				(name "RESV_NC"
 					(effects
@@ -294,7 +294,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 6.35 -20.32 90)
+				(at 10.16 -20.32 90)
 				(length 2.54) hide
 				(name "RESV_NC"
 					(effects
@@ -312,7 +312,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 6.35 -20.32 90)
+				(at 11.43 -20.32 90)
 				(length 2.54) hide
 				(name "RESV_NC"
 					(effects
@@ -330,7 +330,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 6.35 -20.32 90)
+				(at 12.7 -20.32 90)
 				(length 2.54) hide
 				(name "RESV_NC"
 					(effects
@@ -348,7 +348,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 6.35 -20.32 90)
+				(at 13.97 -20.32 90)
 				(length 2.54) hide
 				(name "RESV_NC"
 					(effects
@@ -469,7 +469,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 6.35 -20.32 90)
+				(at 3.81 -20.32 90)
 				(length 2.54) hide
 				(name "RESV_NC"
 					(effects
@@ -577,7 +577,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 6.35 -20.32 90)
+				(at 5.08 -20.32 90)
 				(length 2.54) hide
 				(name "RESV_NC"
 					(effects

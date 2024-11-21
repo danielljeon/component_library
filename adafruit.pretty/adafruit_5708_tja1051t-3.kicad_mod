@@ -506,4 +506,15 @@
 		(remove_unused_layers no)
 		(uuid "a1c63ef6-ed02-4a81-b14e-c9d8e8cf907e")
 	)
+	(model "${KIPRJMOD}/component_library/model_3d/adafruit/5708 CAN Pal.step"
+		(offset
+			(xyz -10.16 -10.16 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

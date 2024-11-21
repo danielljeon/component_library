@@ -516,7 +516,7 @@
 	)
 	(model "${KIPRJMOD}/component_library/model_3d/adafruit/4816 BMP390 QT.step"
 		(offset
-			(xyz -12.7 -8.89 2.999994)
+			(xyz -12.7 -8.89 3)
 		)
 		(scale
 			(xyz 1 1 1)

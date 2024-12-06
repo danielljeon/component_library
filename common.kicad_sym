@@ -510,7 +510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CRYSTAL 8.0000MHZ 10PF SMD"
+		(property "Description" "8 MHz ±20ppm Crystal 18pF 60 Ohms 4-SMD, No Lead"
 			(at 13.97 0 0)
 			(effects
 				(font
@@ -528,7 +528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "ABM3B-8.000MHZ-10-1-U-T"
+		(property "Manufacturer Part Number" "ECS-80-18-23B-JTN-TR"
 			(at 13.97 0 0)
 			(effects
 				(font

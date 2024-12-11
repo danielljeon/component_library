@@ -309,7 +309,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -6.35 180)
+				(at 6.35 -1.27 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -327,7 +327,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -3.81 180)
+				(at -6.35 -3.81 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -345,7 +345,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -1.27 180)
+				(at 6.35 -3.81 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -363,7 +363,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 1.27 180)
+				(at -6.35 -6.35 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -381,7 +381,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 3.81 180)
+				(at 6.35 -6.35 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -399,7 +399,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 6.35 180)
+				(at -6.35 -8.89 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -417,7 +417,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 8.89 180)
+				(at 6.35 -8.89 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -435,7 +435,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 6.35 0)
+				(at 6.35 8.89 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -453,7 +453,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 3.81 0)
+				(at -6.35 6.35 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -471,7 +471,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 1.27 0)
+				(at 6.35 6.35 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -489,7 +489,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -1.27 0)
+				(at -6.35 3.81 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -507,7 +507,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -3.81 0)
+				(at 6.35 3.81 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -525,7 +525,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -6.35 0)
+				(at -6.35 1.27 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -543,7 +543,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -8.89 0)
+				(at 6.35 1.27 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -561,7 +561,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -8.89 180)
+				(at -6.35 -1.27 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -887,7 +887,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -6.35 180)
+				(at 6.35 -1.27 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -905,7 +905,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -3.81 180)
+				(at -6.35 -3.81 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -923,7 +923,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -1.27 180)
+				(at 6.35 -3.81 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -941,7 +941,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 1.27 180)
+				(at -6.35 -6.35 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -959,7 +959,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 3.81 180)
+				(at 6.35 -6.35 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -977,7 +977,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 6.35 180)
+				(at -6.35 -8.89 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -995,7 +995,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 8.89 180)
+				(at 6.35 -8.89 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1013,7 +1013,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 6.35 0)
+				(at 6.35 8.89 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1031,7 +1031,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 3.81 0)
+				(at -6.35 6.35 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1049,7 +1049,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 1.27 0)
+				(at 6.35 6.35 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1067,7 +1067,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -1.27 0)
+				(at -6.35 3.81 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1085,7 +1085,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -3.81 0)
+				(at 6.35 3.81 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1103,7 +1103,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -6.35 0)
+				(at -6.35 1.27 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1121,7 +1121,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -8.89 0)
+				(at 6.35 1.27 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1139,7 +1139,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -8.89 180)
+				(at -6.35 -1.27 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1377,7 +1377,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 1.27 0)
+				(at 6.35 3.81 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1395,7 +1395,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -1.27 0)
+				(at -6.35 1.27 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1413,7 +1413,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -3.81 0)
+				(at 6.35 1.27 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1431,7 +1431,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -3.81 180)
+				(at -6.35 -1.27 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1467,7 +1467,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 1.27 180)
+				(at -6.35 -3.81 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1485,7 +1485,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 3.81 180)
+				(at 6.35 -3.81 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1811,7 +1811,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -6.35 180)
+				(at 6.35 -1.27 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1829,7 +1829,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -3.81 180)
+				(at -6.35 -3.81 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1847,7 +1847,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -1.27 180)
+				(at 6.35 -3.81 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1865,7 +1865,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 1.27 180)
+				(at -6.35 -6.35 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1883,7 +1883,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 3.81 180)
+				(at 6.35 -6.35 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1901,7 +1901,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 6.35 180)
+				(at -6.35 -8.89 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1919,7 +1919,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 8.89 180)
+				(at 6.35 -8.89 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1937,7 +1937,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 6.35 0)
+				(at 6.35 8.89 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1955,7 +1955,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 3.81 0)
+				(at -6.35 6.35 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1973,7 +1973,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 1.27 0)
+				(at 6.35 6.35 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1991,7 +1991,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -1.27 0)
+				(at -6.35 3.81 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -2009,7 +2009,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -3.81 0)
+				(at 6.35 3.81 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -2027,7 +2027,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -6.35 0)
+				(at -6.35 1.27 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -2045,7 +2045,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -8.89 0)
+				(at 6.35 1.27 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -2063,7 +2063,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -8.89 180)
+				(at -6.35 -1.27 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -2301,7 +2301,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 1.27 0)
+				(at 6.35 3.81 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -2319,7 +2319,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -1.27 0)
+				(at -6.35 1.27 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -2337,7 +2337,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -3.81 0)
+				(at 6.35 1.27 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -2355,7 +2355,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -3.81 180)
+				(at -6.35 -1.27 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -2391,7 +2391,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 1.27 180)
+				(at -6.35 -3.81 0)
 				(length 3.81)
 				(name ""
 					(effects
@@ -2409,7 +2409,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 3.81 180)
+				(at 6.35 -3.81 180)
 				(length 3.81)
 				(name ""
 					(effects

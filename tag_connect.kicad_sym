@@ -31,7 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "file:///C:/Users/Daniel/Downloads/ARM20-CTX_19.pdf"
+		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/2019/12/TC2030-IDC-Datasheet-Rev-B.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -168,7 +168,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at 10.16 0 180)
 				(length 2.54)
 				(name "SWCLK/TCK"
@@ -205,7 +205,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 10.16 -5.08 180)
 				(length 2.54)
 				(name "SWO/TDO"
@@ -268,7 +268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "file:///C:/Users/Daniel/Downloads/ARM20-CTX_19.pdf"
+		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/2019/12/TC2030-IDC-NL-Datasheet-Rev-B.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -405,7 +405,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at 10.16 0 180)
 				(length 2.54)
 				(name "SWCLK/TCK"
@@ -442,7 +442,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 10.16 -5.08 180)
 				(length 2.54)
 				(name "SWO/TDO"
@@ -505,7 +505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "file:///C:/Users/Daniel/Downloads/TC2050-ARM2010-2021.pdf"
+		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC_Datasheet_7.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -660,7 +660,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at 11.43 1.27 180)
 				(length 2.54)
 				(name "SWCLK/TCK"
@@ -697,7 +697,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 11.43 -3.81 180)
 				(length 2.54)
 				(name "SWO/TDO"
@@ -814,7 +814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "file:///C:/Users/Daniel/Downloads/TC2050-ARM2010-2021.pdf"
+		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -969,7 +969,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at 11.43 1.27 180)
 				(length 2.54)
 				(name "SWCLK/TCK"
@@ -1006,7 +1006,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 11.43 -3.81 180)
 				(length 2.54)
 				(name "SWO/TDO"

@@ -8,6 +8,7 @@
   (lib (name "digi_xbee")(type "KiCad")(uri "${KIPRJMOD}/component_library/digi_xbee.kicad_sym")(options "")(descr ""))
   (lib (name "nxp")(type "KiCad")(uri "${KIPRJMOD}/component_library/nxp.kicad_sym")(options "")(descr ""))
   (lib (name "stm32f4")(type "KiCad")(uri "${KIPRJMOD}/component_library/stm32f4.kicad_sym")(options "")(descr ""))
+  (lib (name "stm32l4")(type "KiCad")(uri "${KIPRJMOD}/component_library/stm32l4.kicad_sym")(options "")(descr ""))
   (lib (name "tag_connect")(type "KiCad")(uri "${KIPRJMOD}/component_library/tag_connect.kicad_sym")(options "")(descr ""))
   (lib (name "ublox")(type "KiCad")(uri "${KIPRJMOD}/component_library/ublox.kicad_sym")(options "")(descr ""))
 )

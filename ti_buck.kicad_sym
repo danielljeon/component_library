@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 12.7 0)
+			(at 0 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "TPSM8290x"
-			(at 10.922 12.7 0)
+			(at 10.922 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "ti_buck:tpsm8290x"
-			(at 2.54 8.89 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 2.54 8.89 0)
+			(at 2.54 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Description" "Non-Isolated PoL Module DC DC Converter 1 Output 0.4 ~ 5.5V xA 3V - 17V Input"
-			(at 2.54 8.89 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -96,7 +96,7 @@
 		)
 		(symbol "tpsm8290x_0_0"
 			(pin power_in line
-				(at -19.05 8.89 0)
+				(at -19.05 7.62 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -113,26 +113,8 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 19.05 6.35 180)
-				(length 2.54)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at 0 -13.97 90)
+				(at 0 -12.7 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -149,26 +131,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -19.05 6.35 0)
-				(length 2.54)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at -19.05 3.81 0)
+				(at -19.05 5.08 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -186,7 +150,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -6.35 0)
+				(at -19.05 -5.08 0)
 				(length 2.54)
 				(name "MODE/S-CONF"
 					(effects
@@ -204,7 +168,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -1.27 0)
+				(at -19.05 0 0)
 				(length 2.54)
 				(name "SS/TR"
 					(effects
@@ -222,7 +186,7 @@
 				)
 			)
 			(pin output line
-				(at 19.05 -3.81 180)
+				(at 19.05 -2.54 180)
 				(length 2.54)
 				(name "PG"
 					(effects
@@ -240,7 +204,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 1.27 180)
+				(at 19.05 2.54 180)
 				(length 2.54)
 				(name "FB/VSET"
 					(effects
@@ -258,7 +222,7 @@
 				)
 			)
 			(pin power_out line
-				(at 19.05 8.89 180)
+				(at 19.05 7.62 180)
 				(length 2.54)
 				(name "VOUT"
 					(effects
@@ -277,8 +241,44 @@
 			)
 		)
 		(symbol "tpsm8290x_1_0"
+			(pin passive line
+				(at 19.05 7.62 180)
+				(length 2.54) hide
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -19.05 7.62 0)
+				(length 2.54) hide
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin no_connect line
-				(at 2.54 -13.97 90)
+				(at 2.54 -12.7 90)
 				(length 2.54) hide
 				(name "SW/NC"
 					(effects
@@ -298,8 +298,8 @@
 		)
 		(symbol "tpsm8290x_1_1"
 			(rectangle
-				(start -16.51 11.43)
-				(end 16.51 -11.43)
+				(start -16.51 10.16)
+				(end 16.51 -10.16)
 				(stroke
 					(width 0)
 					(type default)
@@ -313,7 +313,7 @@
 	(symbol "tpsm82901"
 		(extends "tpsm8290x")
 		(property "Reference" "U"
-			(at 0 12.7 0)
+			(at 0 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -321,7 +321,7 @@
 			)
 		)
 		(property "Value" "TPSM82901"
-			(at 10.922 12.7 0)
+			(at 10.922 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -329,7 +329,7 @@
 			)
 		)
 		(property "Footprint" "ti_buck:tpsm8290x"
-			(at 2.54 8.89 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -338,7 +338,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpsm82901.pdf"
-			(at 2.54 8.89 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -347,7 +347,7 @@
 			)
 		)
 		(property "Description" "Non-Isolated PoL Module DC DC Converter 1 Output 0.4 ~ 5.5V 1A 3V - 17V Input"
-			(at 2.54 8.89 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -404,7 +404,7 @@
 	(symbol "tpsm82902"
 		(extends "tpsm8290x")
 		(property "Reference" "U"
-			(at 0 12.7 0)
+			(at 0 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -412,7 +412,7 @@
 			)
 		)
 		(property "Value" "TPSM82902"
-			(at 10.922 12.7 0)
+			(at 10.922 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -420,7 +420,7 @@
 			)
 		)
 		(property "Footprint" "ti_buck:tpsm8290x"
-			(at 2.54 8.89 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -429,7 +429,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpsm82902.pdf"
-			(at 2.54 8.89 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -438,7 +438,7 @@
 			)
 		)
 		(property "Description" "Non-Isolated PoL Module DC DC Converter 1 Output 0.4 ~ 5.5V 2A 3V - 17V Input"
-			(at 2.54 8.89 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -495,7 +495,7 @@
 	(symbol "tpsm82903"
 		(extends "tpsm8290x")
 		(property "Reference" "U"
-			(at 0 12.7 0)
+			(at 0 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -503,7 +503,7 @@
 			)
 		)
 		(property "Value" "TPSM82903"
-			(at 10.922 12.7 0)
+			(at 10.922 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -511,7 +511,7 @@
 			)
 		)
 		(property "Footprint" "ti_buck:tpsm8290x"
-			(at 2.54 8.89 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -520,7 +520,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpsm82903.pdf"
-			(at 2.54 8.89 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -529,7 +529,7 @@
 			)
 		)
 		(property "Description" "Non-Isolated PoL Module DC DC Converter 1 Output 0.4 ~ 5.5V 3A 3V - 17V Input"
-			(at 2.54 8.89 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)

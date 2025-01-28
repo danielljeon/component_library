@@ -552,7 +552,7 @@
 		(zone_connect 2)
 		(uuid "147c961a-e338-4bd3-bcd0-5355b2012c41")
 	)
-	(model "${KIPRJMOD}/component_library/model_3d/stm32l4/QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.wrl"
+	(model "${KIPRJMOD}/component_library/model_3d/stm32l4/QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

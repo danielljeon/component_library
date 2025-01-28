@@ -96,15 +96,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Arm Cortex-M4 STM32F4 STM32F446"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_fp_filters" "LQFP*10x10mm*P0.5mm*"
 			(at 0 0 0)
 			(effects

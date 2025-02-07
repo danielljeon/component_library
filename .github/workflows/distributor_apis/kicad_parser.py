@@ -1,6 +1,4 @@
-"""KiCad custom library parsers.
-
-"""
+"""KiCad custom library parsers."""
 
 import os
 import re

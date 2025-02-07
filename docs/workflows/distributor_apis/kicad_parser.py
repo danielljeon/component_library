@@ -96,7 +96,7 @@ def find_kicad_libray_files(
         exclude_dirs = []  # Ensure a valid list.
 
     if not isinstance(starting_dir, str):  # Param secondary setter.
-        starting_dir = "."
+        starting_dir = ""
 
     symbol_files = []
     footprint_files = []

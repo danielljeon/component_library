@@ -11,7 +11,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -78,6 +78,17 @@
 		(layer "F.SilkS")
 		(uuid "14a1b89e-a89d-458b-a8f7-b68d706b7643")
 	)
+	(fp_circle
+		(center 1.779 -1.6)
+		(end 1.979 -1.6)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "d033e2ea-158d-4d39-9e10-3e7989639cea")
+	)
 	(fp_rect
 		(start -1.525 -2.525)
 		(end 1.525 2.525)
@@ -99,6 +110,17 @@
 		(fill none)
 		(layer "F.Fab")
 		(uuid "ded913c7-46c0-40ea-acac-35cd25ab58d0")
+	)
+	(fp_circle
+		(center 1.779 -1.6)
+		(end 1.979 -1.6)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "c1910090-9568-46ed-90d6-6fae2ed20540")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)

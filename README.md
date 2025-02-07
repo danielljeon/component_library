@@ -1,8 +1,5 @@
 # component_library
 
-![black_formatter](https://github.com/danielljeon/component_library/actions/workflows/black_formatter.yaml/badge.svg)
-![distributor_apis](https://github.com/danielljeon/component_library/actions/workflows/distributor_apis.yaml/badge.svg)
-
 KiCad component library.
 
 ---
@@ -11,7 +8,7 @@ KiCad component library.
   <summary>Table of Contents</summary>
 
 <!-- TOC -->
-* [component_library](#component_library)
+* [component_library](#componentlibrary)
   * [1 Overview](#1-overview)
   * [2 Symbol Conventions](#2-symbol-conventions)
     * [2.1 General Properties](#21-general-properties)
@@ -91,3 +88,16 @@ The following distributors are currently supported:
 
 1. DigiKey
 2. Mouser
+
+Distributor API supply chain checker workflows are saved
+in [distributor_apis](docs/workflows/distributor_apis) for reference.
+
+- Discontinued due to limited development and unnecessary slowdown in the
+  current development process.
+
+The badge markdown would be as follows:
+
+```
+![black_formatter](https://github.com/danielljeon/component_library/actions/workflows/black_formatter.yaml/badge.svg)
+![distributor_apis](https://github.com/danielljeon/component_library/actions/workflows/distributor_apis.yaml/badge.svg)
+```

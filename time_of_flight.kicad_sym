@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "time_of_flight:vl53l4cd_lga12"
-			(at 8.89 13.97 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/vl53l4cd.pdf"
-			(at 24.13 1.27 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Description" "Optical Sensor 0 ~ 51.18\" (0 ~ 130cm) I2C Output"
-			(at 24.13 1.27 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50,7 +50,7 @@
 			)
 		)
 		(property "Manufacturer" "STMicroelectronics"
-			(at 24.13 1.27 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59,7 +59,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "VL53L4CDV0DH/1"
-			(at 24.13 1.27 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68,7 +68,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 8.89 13.97 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77,7 +77,7 @@
 			)
 		)
 		(property "Distributor Part Number" "497-VL53L4CDV0DH/1CT-ND"
-			(at 24.13 1.27 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86,7 +86,7 @@
 			)
 		)
 		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/stmicroelectronics/VL53L4CDV0DH-1/16123783?s=N4IgTCBcDaIG4BsCsBmBAWAxgExAXQF8g"
-			(at 24.13 1.27 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)

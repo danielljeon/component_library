@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "time_of_flight:vl53l4cd_lga12"
 			(at 8.89 13.97 0)
 			(effects
 				(font

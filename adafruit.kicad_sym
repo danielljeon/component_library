@@ -892,7 +892,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "adafruit:adafruit_5396_vl53l4cd"
 			(at 0 0 0)
 			(effects
 				(font

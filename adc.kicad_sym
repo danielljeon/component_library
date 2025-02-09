@@ -24,7 +24,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "adc:ads114s08_tqfp-32"
 			(at 0 -5.08 0)
 			(effects
 				(font

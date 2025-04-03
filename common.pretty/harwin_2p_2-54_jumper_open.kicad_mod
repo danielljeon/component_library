@@ -1,7 +1,7 @@
 (footprint "harwin_2p_2-54_jumper_open"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2.54 0)
@@ -11,7 +11,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "870aa1c1-f8f7-4473-abb4-090a0072e67c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e41f26a1-89c6-42d0-a85a-bc27b9da21d4")
 		(effects
 			(font
 				(size 1 1)
@@ -148,7 +135,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "a07a1d3a-429e-4314-92d8-c1c5327c6c8c")
 	)
@@ -160,7 +147,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -172,7 +159,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -204,6 +191,7 @@
 		(remove_unused_layers no)
 		(uuid "c19cc85f-2050-4548-a0c7-342890ca8180")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/component_library/model_3d/common/M20-9990246.step"
 		(offset
 			(xyz -3.81 0 2.54)

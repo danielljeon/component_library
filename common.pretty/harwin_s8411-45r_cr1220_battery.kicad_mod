@@ -1,7 +1,7 @@
 (footprint "harwin_s8411-45r_cr1220_battery"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 4 -8 0)
@@ -11,7 +11,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "870aa1c1-f8f7-4473-abb4-090a0072e67c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e41f26a1-89c6-42d0-a85a-bc27b9da21d4")
 		(effects
 			(font
 				(size 1 1)
@@ -226,7 +213,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "cb8ad995-7c10-4ee3-aee6-74f0bc98e525")
 	)
@@ -237,7 +224,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "953e7184-fdbb-4faa-a53f-3aa1eeb1518f")
 	)
@@ -248,7 +235,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d9ec7086-0ff5-4a04-831c-61195de80271")
 	)
@@ -281,17 +268,18 @@
 	(pad "1" smd roundrect
 		(at 0 -8.2)
 		(size 2.3 4.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "51665c6f-fa8e-41de-a1cf-d31c8a0e9ad9")
 	)
 	(pad "2" smd roundrect
 		(at 0 8.2)
 		(size 2.3 4.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "0dd911e8-85cb-486c-886c-800b408eea72")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/component_library/model_3d/common/S8411-45R.step"
 		(offset
 			(xyz 0 0 0)

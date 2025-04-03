@@ -1,7 +1,7 @@
 (footprint "xbee_pro_900hp"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -17.4719 0)
@@ -11,7 +11,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "9de301fd-0dc7-4e2a-90b6-9bc594648ec1")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 16.4719 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "97a35a7d-f40f-4f53-b49d-13eb73fb74b8")
 		(effects
 			(font
 				(size 1 1)
@@ -158,7 +145,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "f74b0394-7dd6-470f-94bc-bd040a36372e")
 	)
@@ -289,7 +276,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "4747ac5c-740c-4479-b8c4-ec4b1e098df9")
 	)
@@ -465,6 +452,7 @@
 		(remove_unused_layers no)
 		(uuid "ede6f188-06da-4472-9ba7-6f5bca25d8e4")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/component_library/model_3d/digi_xbee/XBPro-whip.STEP"
 		(offset
 			(xyz -38.3032 -5.4991 44.75)

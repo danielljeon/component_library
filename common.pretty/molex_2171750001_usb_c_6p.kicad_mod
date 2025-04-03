@@ -6,7 +6,7 @@
 	(descr "USB Type C Receptacle, GCT, power-only, 6P, top mounted, horizontal, 3A, 1.9mm stake: https://gct.co/files/drawings/usb4125.pdf")
 	(tags "USB C Type-C receptacle power-only charging-only 6P 6C right angled")
 	(property "Reference" "REF**"
-		(at 0 -5.1 0)
+		(at 0 -5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "95c2ba4d-6f60-4594-9ea9-52fbf5601365")

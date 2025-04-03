@@ -1,7 +1,7 @@
 (footprint "xtal_abs25-32.768khz-6-t"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -5 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "90a5ce0b-664c-431f-99d0-0d52d0657660")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -173,7 +161,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "83db765c-9f00-480f-9e03-52d40c250bdb")
 	)
@@ -271,31 +259,32 @@
 	(pad "1" smd roundrect
 		(at -1.6 -2.75)
 		(size 1.9 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1923076923)
 		(uuid "2986586b-5929-4491-9e0b-44c39a9ae402")
 	)
 	(pad "2" smd roundrect
 		(at -1.6 2.75)
 		(size 1.9 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1923076923)
 		(uuid "a106027f-7ba7-466e-8570-e8d395f87520")
 	)
 	(pad "3" smd roundrect
 		(at 1.6 2.75)
 		(size 1.9 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1923076923)
 		(uuid "1f2a8fdb-2ce3-4543-a5e9-b56dea0ba694")
 	)
 	(pad "4" smd roundrect
 		(at 1.6 -2.75)
 		(size 1.9 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1923076923)
 		(uuid "0a79134c-2bd2-4cb7-a8e4-4845b4db5ab0")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/component_library/model_3d/common/ABS25-32.768KHZ-6-T.step"
 		(offset
 			(xyz 0 0 1.4)

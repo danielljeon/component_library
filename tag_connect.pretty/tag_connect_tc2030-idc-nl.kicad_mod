@@ -1,12 +1,12 @@
 (footprint "tag_connect_tc2030-idc-nl"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC-NL.pdf")
 	(tags "tag connect programming header pogo pins")
 	(property "Reference" "REF**"
-		(at 0 -2.385 0)
+		(at 0 -2.25 0)
 		(layer "F.SilkS")
 		(uuid "adf8cbe6-3f0f-433b-af61-fe5b4bf73d8e")
 		(effects
@@ -27,19 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify top)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cb7a42dc-7598-41fc-9b81-cc6f05c6fdbe")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -78,7 +65,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "916d800d-862b-4b62-a7c4-cd3f78b86902")
 	)
@@ -91,7 +78,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "82fddc85-0622-4ebd-a875-e96faee38125")
 	)
@@ -181,6 +168,10 @@
 			(copperpour not_allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -191,4 +182,5 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 )

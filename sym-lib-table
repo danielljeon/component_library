@@ -11,6 +11,7 @@
   (lib (name "stm32f4")(type "KiCad")(uri "${KIPRJMOD}/component_library/stm32f4.kicad_sym")(options "")(descr ""))
   (lib (name "stm32l4")(type "KiCad")(uri "${KIPRJMOD}/component_library/stm32l4.kicad_sym")(options "")(descr ""))
   (lib (name "stm32wb0")(type "KiCad")(uri "${KIPRJMOD}/component_library/stm32wb0.kicad_sym")(options "")(descr ""))
+  (lib (name "stm32wb5")(type "KiCad")(uri "${KIPRJMOD}/component_library/stm32wb5.kicad_sym")(options "")(descr ""))
   (lib (name "tag_connect")(type "KiCad")(uri "${KIPRJMOD}/component_library/tag_connect.kicad_sym")(options "")(descr ""))
   (lib (name "ti_buck")(type "KiCad")(uri "${KIPRJMOD}/component_library/ti_buck.kicad_sym")(options "")(descr ""))
   (lib (name "time_of_flight")(type "KiCad")(uri "${KIPRJMOD}/component_library/time_of_flight.kicad_sym")(options "")(descr ""))

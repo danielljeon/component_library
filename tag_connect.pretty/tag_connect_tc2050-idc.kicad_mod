@@ -55,6 +55,30 @@
 			)
 		)
 	)
+	(property "Manufacturer" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9eb2a8e-57d4-4142-8850-5b807f1588ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "368ca111-2c39-408d-ba62-6acc4b853b16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_line
 		(start -5.08 -0.65)

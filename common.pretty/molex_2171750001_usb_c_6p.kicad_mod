@@ -57,7 +57,7 @@
 	)
 	(property "Manufacturer" "Molex"
 		(at 0 0 0)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(hide yes)
 		(uuid "7bd26b66-a131-404a-b1d2-3bc7cd67ce79")
 		(effects
@@ -69,7 +69,7 @@
 	)
 	(property "Manufacturer Part Number" "2171750001"
 		(at 0 0 0)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(hide yes)
 		(uuid "fc93fcfe-eede-4ddd-a0c6-2ae031ad7c14")
 		(effects

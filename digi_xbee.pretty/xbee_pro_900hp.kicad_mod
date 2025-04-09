@@ -55,7 +55,7 @@
 	)
 	(property "Manufacturer" ""
 		(at 0 0 0)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(hide yes)
 		(uuid "075460b5-c65b-44ce-b100-b2c7b6aba24a")
 		(effects
@@ -67,7 +67,7 @@
 	)
 	(property "Manufacturer Part Number" ""
 		(at 0 16.4719 0)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(hide yes)
 		(uuid "898f5296-44c8-41f9-8fd9-8ee2ebf45b14")
 		(effects

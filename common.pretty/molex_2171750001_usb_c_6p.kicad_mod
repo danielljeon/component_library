@@ -3,8 +3,6 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "USB Type C Receptacle, GCT, power-only, 6P, top mounted, horizontal, 3A, 1.9mm stake: https://gct.co/files/drawings/usb4125.pdf")
-	(tags "USB C Type-C receptacle power-only charging-only 6P 6C right angled")
 	(property "Reference" "REF**"
 		(at 0 -5 0)
 		(unlocked yes)

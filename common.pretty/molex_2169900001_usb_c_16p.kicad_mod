@@ -119,16 +119,57 @@
 		(layer "Dwgs.User")
 		(uuid "2506900f-99be-47da-b849-938310893a83")
 	)
-	(fp_rect
-		(start -4.62 -3.35)
+	(fp_line
+		(start -4.62 3.35)
+		(end -4.62 -3.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f9c86ae5-3d0e-4e71-8843-a5fc2e0ea480")
+	)
+	(fp_line
+		(start -3.82 -3.35)
+		(end 3.82 -3.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9e7842db-5e1e-41b1-8979-51c3d3112c9d")
+	)
+	(fp_line
+		(start 4.62 -3.35)
 		(end 4.62 3.35)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
-		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "a4c9c8a1-4ea8-433d-993a-ec5989c0876d")
+		(uuid "c1e7197c-831f-4347-8608-7ed27d67f52c")
+	)
+	(fp_arc
+		(start -4.62 -3.35)
+		(mid -4.22 -3.75)
+		(end -3.82 -3.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8582c4c2-a08a-4ec4-9cd8-74ffdb83e1af")
+	)
+	(fp_arc
+		(start 3.82 -3.35)
+		(mid 4.22 -3.75)
+		(end 4.62 -3.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "08a2d23d-79ca-443d-8ec6-1bc2e9dc8a56")
 	)
 	(fp_poly
 		(pts

@@ -628,11 +628,10 @@
 		)
 		(uuid "3efbfc9f-f9b6-4c56-9d34-cd7b5b86fe46")
 	)
-	(pad "17" smd roundrect
+	(pad "17" smd rect
 		(at 0 0.01)
 		(size 2.05 2.55)
 		(layers "F.Cu" "F.Mask")
-		(roundrect_rratio 0.1219512195)
 		(uuid "7d877615-4949-4cfe-8882-ffa249871517")
 	)
 	(embedded_fonts no)

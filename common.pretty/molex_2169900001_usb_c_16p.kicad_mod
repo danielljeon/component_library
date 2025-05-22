@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -5.25 0)
+		(at 0 -5.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "4e2cbc67-4a19-491b-b028-11980dbb68e8")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "molex_2169900001_usb_c_16p"
-		(at 0 4.25 0)
+		(at 0 4.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "396531dd-61c6-4c9a-b0d6-6295adc2461d")
@@ -78,26 +78,6 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -4.75 0)
-		(end -4.75 -1.75)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "5225e364-bbdf-4753-9501-b89793cecdf9")
-	)
-	(fp_line
-		(start 4.75 0)
-		(end 4.75 -1.875)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "352eec27-6d04-44c7-a9f6-f159a1f36b6d")
-	)
 	(fp_line
 		(start 4.62 3.35)
 		(end -4.62 3.35)

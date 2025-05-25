@@ -255,7 +255,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "tja1057gt-3"
+	(symbol "tja1057gtk-3"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -268,7 +268,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TJA1057GT/3"
+		(property "Value" "TJA1057BTK"
 			(at 2.54 8.89 0)
 			(effects
 				(font
@@ -277,7 +277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "nxp:sot96-1_soic-8"
+		(property "Footprint" "nxp:sot782-1_hvson-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -295,7 +295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/1 Transceiver Half CANbus 8-SO"
+		(property "Description" "1/1 Transceiver Half CANbus 8HVSON"
 			(at 0 0 0)
 			(effects
 				(font
@@ -313,7 +313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "TJA1057GT/3"
+		(property "Manufacturer Part Number" "TJA1057BTK"
 			(at 0 0 0)
 			(effects
 				(font
@@ -331,7 +331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "568-TJA1057GT/3JCT-ND"
+		(property "Distributor Part Number" "568-TJA1057BTK/0JCT-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -340,7 +340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/nxp-usa-inc/TJA1057GT-3J/5981093"
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/nxp-usa-inc/TJA1057BTK-0J/24374784"
 			(at 0 0 0)
 			(effects
 				(font
@@ -349,7 +349,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "tja1057gt-3_1_1"
+		(symbol "tja1057gtk-3_1_1"
 			(rectangle
 				(start -10.16 7.62)
 				(end 10.16 -7.62)
@@ -434,6 +434,24 @@
 				)
 			)
 			(pin power_in line
+				(at -1.27 -10.16 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 0 10.16 270)
 				(length 2.54)
 				(name "V_{CC}"
@@ -452,16 +470,16 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -10.16 90)
+				(at 1.27 -10.16 90)
 				(length 2.54)
-				(name "GND"
+				(name "PAD"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -8,6 +8,7 @@
   (lib (name "connectors")(type "KiCad")(uri "${KIPRJMOD}/component_library/connectors.kicad_sym")(options "")(descr ""))
   (lib (name "digi_xbee")(type "KiCad")(uri "${KIPRJMOD}/component_library/digi_xbee.kicad_sym")(options "")(descr ""))
   (lib (name "nxp")(type "KiCad")(uri "${KIPRJMOD}/component_library/nxp.kicad_sym")(options "")(descr ""))
+  (lib (name "silabs")(type "KiCad")(uri "${KIPRJMOD}/component_library/silabs.kicad_sym")(options "")(descr ""))
   (lib (name "stm32f4")(type "KiCad")(uri "${KIPRJMOD}/component_library/stm32f4.kicad_sym")(options "")(descr ""))
   (lib (name "stm32l4")(type "KiCad")(uri "${KIPRJMOD}/component_library/stm32l4.kicad_sym")(options "")(descr ""))
   (lib (name "stm32wb0")(type "KiCad")(uri "${KIPRJMOD}/component_library/stm32wb0.kicad_sym")(options "")(descr ""))

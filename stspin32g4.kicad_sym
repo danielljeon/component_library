@@ -24,7 +24,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "stspin32g4:VQFN-64-1EP_9x9mm_P0.5mm_EP4.1x4.1mm"
 			(at 0 0 0)
 			(effects
 				(font

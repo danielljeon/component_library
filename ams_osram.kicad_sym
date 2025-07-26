@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 3.81 16.51 0)
+			(at 3.81 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "AS5147P-HTSM"
-			(at 3.81 13.97 0)
+			(at 3.81 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -98,7 +98,7 @@
 		)
 		(symbol "as5147p_0_0"
 			(pin input line
-				(at -12.7 10.16 0)
+				(at -12.7 8.89 0)
 				(length 2.54)
 				(name "CSn"
 					(effects
@@ -116,7 +116,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 7.62 0)
+				(at -12.7 6.35 0)
 				(length 2.54)
 				(name "CLK"
 					(effects
@@ -134,7 +134,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 5.08 0)
+				(at -12.7 3.81 0)
 				(length 2.54)
 				(name "MISO"
 					(effects
@@ -152,7 +152,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 2.54 0)
+				(at -12.7 1.27 0)
 				(length 2.54)
 				(name "MOSI"
 					(effects
@@ -170,7 +170,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -15.24 90)
+				(at -2.54 -13.97 90)
 				(length 2.54)
 				(name "Test"
 					(effects
@@ -188,7 +188,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 15.24 270)
+				(at 0 13.97 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -206,7 +206,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -15.24 90)
+				(at 0 -13.97 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -224,7 +224,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 5.08 180)
+				(at 12.7 3.81 180)
 				(length 2.54)
 				(name "U"
 					(effects
@@ -242,7 +242,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 2.54 180)
+				(at 12.7 1.27 180)
 				(length 2.54)
 				(name "V"
 					(effects
@@ -260,43 +260,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -2.54 180)
-				(length 2.54)
-				(name "A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 12.7 -5.08 180)
-				(length 2.54)
-				(name "B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 12.7 -7.62 180)
+				(at 12.7 -1.27 180)
 				(length 2.54)
 				(name "W/PWM"
 					(effects
@@ -314,7 +278,43 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -10.16 180)
+				(at 12.7 -3.81 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -6.35 180)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -8.89 180)
 				(length 2.54)
 				(name "I"
 					(effects
@@ -334,7 +334,7 @@
 		)
 		(symbol "as5147p_1_0"
 			(pin passive line
-				(at 12.7 10.16 180)
+				(at 12.7 8.89 180)
 				(length 2.54)
 				(name "VDD3V3"
 					(effects
@@ -354,8 +354,8 @@
 		)
 		(symbol "as5147p_1_1"
 			(rectangle
-				(start -10.16 12.7)
-				(end 10.16 -12.7)
+				(start -10.16 11.43)
+				(end 10.16 -11.43)
 				(stroke
 					(width 0)
 					(type solid)

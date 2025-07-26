@@ -120,7 +120,7 @@
 						)
 					)
 				)
-				(number "PAD"
+				(number "65"
 					(effects
 						(font
 							(size 1.27 1.27)

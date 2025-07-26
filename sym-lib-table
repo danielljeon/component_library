@@ -2,6 +2,7 @@
   (version 7)
   (lib (name "adafruit")(type "KiCad")(uri "${KIPRJMOD}/component_library/adafruit.kicad_sym")(options "")(descr ""))
   (lib (name "adc")(type "KiCad")(uri "${KIPRJMOD}/component_library/adc.kicad_sym")(options "")(descr ""))
+  (lib (name "ams_osram")(type "KiCad")(uri "${KIPRJMOD}/component_library/ams_osram.kicad_sym")(options "")(descr ""))
   (lib (name "bosch")(type "KiCad")(uri "${KIPRJMOD}/component_library/bosch.kicad_sym")(options "")(descr ""))
   (lib (name "ceva")(type "KiCad")(uri "${KIPRJMOD}/component_library/ceva.kicad_sym")(options "")(descr ""))
   (lib (name "common")(type "KiCad")(uri "${KIPRJMOD}/component_library/common.kicad_sym")(options "")(descr ""))

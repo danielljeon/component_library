@@ -684,7 +684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "BNO085"
+		(property "Manufacturer Part Number" "BNO086"
 			(at 0 0 0)
 			(effects
 				(font

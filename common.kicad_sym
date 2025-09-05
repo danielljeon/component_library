@@ -5575,7 +5575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "common:txu0304bqar"
+		(property "Footprint" "common:wqfn-14_3x2.5mm_p0.5mm"
 			(at 0 0 0)
 			(effects
 				(font

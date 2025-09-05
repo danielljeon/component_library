@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "TXB0106IPWRQ1"
+	(property "Value" "TXB0106RGYR"
 		(at 0 3.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -65,7 +65,7 @@
 			)
 		)
 	)
-	(property "Manufacturer Part Number" "TXB0106IPWRQ1"
+	(property "Manufacturer Part Number" "TXB0106RGYR"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)

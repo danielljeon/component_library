@@ -7,6 +7,7 @@
   (lib (name "common")(type "KiCad")(uri "${KIPRJMOD}/component_library/common.pretty")(options "")(descr ""))
   (lib (name "connectors")(type "KiCad")(uri "${KIPRJMOD}/component_library/connectors.pretty")(options "")(descr ""))
   (lib (name "digi_xbee")(type "KiCad")(uri "${KIPRJMOD}/component_library/digi_xbee.pretty")(options "")(descr ""))
+  (lib (name "inductors")(type "KiCad")(uri "${KIPRJMOD}/component_library/inductors.pretty")(options "")(descr ""))
   (lib (name "nxp")(type "KiCad")(uri "${KIPRJMOD}/component_library/nxp.pretty")(options "")(descr ""))
   (lib (name "stm32f4")(type "KiCad")(uri "${KIPRJMOD}/component_library/stm32f4.pretty")(options "")(descr ""))
   (lib (name "stm32l4")(type "KiCad")(uri "${KIPRJMOD}/component_library/stm32l4.pretty")(options "")(descr ""))

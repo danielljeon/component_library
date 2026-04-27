@@ -255,7 +255,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "tja1057gtk-3"
+	(symbol "tja1057btk"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -349,7 +349,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "tja1057gtk-3_1_1"
+		(symbol "tja1057btk_1_1"
 			(rectangle
 				(start -10.16 7.62)
 				(end 10.16 -7.62)
